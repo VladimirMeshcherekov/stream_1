@@ -9,7 +9,7 @@ namespace ConsoleApplication1
         {
             Thread myThread = new Thread(func); //Создаем новый объект потока (Thread)
 
-            //  myThread.IsBackground = false;
+            myThread.IsBackground = false; // то самое казино рандомного вывода
 
             myThread.Start(); //запускаем поток
 
